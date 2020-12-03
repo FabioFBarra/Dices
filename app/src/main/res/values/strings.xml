@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dices</string>
+    <string name="roll_dice">Rolar dado</string>
+    <string name="dado_4">Dado 4 Lados</string>
+    <string name="dado_6">Dado 6 Lados</string>
+    <string name="dado_100">Dado 100 Lados</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="dices.cursoandroid.com.dices.MainActivity">
+
+    <Button
+        android:id="@+id/botao4Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/roll_dice"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/botao6Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/roll_dice"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/botao100Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="38dp"
+        android:text="@string/roll_dice"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="149dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="34dp"
+        android:text="@string/dado_4"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="149dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/dado_6"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botao4Id" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="149dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/dado_100"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botao6Id" />
+
+    <TextView
+        android:id="@+id/tela4Id"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="31dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/title"
+        app:layout_constraintLeft_toRightOf="@+id/botao4Id"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/tela6Id"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="31dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/title"
+        app:layout_constraintLeft_toRightOf="@+id/botao6Id"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/tela100Id"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="31dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/title"
+        app:layout_constraintLeft_toRightOf="@+id/botao100Id"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</android.support.constraint.ConstraintLayout>
